@@ -1,0 +1,117 @@
+a {
+  color: #000000;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {
+  color: #000000;
+  outline: none;
+}
+
+#fh5co-home {
+  background-color: #000000;
+}
+
+#fh5co-home .gradient {
+  background-color: #000000;
+  background-image: none;
+}
+
+#fh5co-header .navbar-brand {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-header .navbar-brand {
+      color: #000000 !important;
+  }
+}
+
+.fh5co-nav-toggle i,
+.fh5co-nav-toggle i::after,
+.fh5co-nav-toggle i::before {
+  color: #000000 !important;
+  background-color: #000000 !important;
+}
+
+#fh5co-header.navbar-fixed-top .navbar-brand {
+  color: #000000;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a {
+  color: #000000;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a span:before {
+  background-color: #000000;
+}
+
+#fh5co-header #navbar li a:hover {
+  color: #777 !important;
+}
+
+.btn.btn-primary {
+  background: #000000;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+  box-shadow: none;
+  background: #000000;
+}
+
+#fh5co-intro {
+  padding-bottom: 0em;
+}
+
+#fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
+  color: #000000;
+}
+
+#fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
+  background: none !important;
+  color: #000000 !important;
+  border: 2px solid #000000 !important;
+}
+
+#fh5co-intro .fh5co-block {
+  box-shadow: 9px 14px 42px 3px rgba(50, 50, 50, 0.4);
+}
+
+.section-heading h2:after {
+  background-color: #000000;
+}
+
+#fh5co-testimonials .box-testimony .author a {
+  color: #000000;
+}
+
+#fh5co-testimonials .box-testimony blockquote {
+  background-color: #000000;
+}
+
+#fh5co-testimonials .box-testimony blockquote:after {
+  border-top-color: #000000;
+}
+
+#fh5co-counters .fh5co-counter .fh5co-counter-icon {
+  color: #ffffff;
+}
+
+#fh5co-services {
+  background-image: none;
+  background-color: #000000;
+}
+
+.social.social-circle a {
+  background-color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-header #navbar li.active a {
+      background: transparent;
+      background: none;
+      color: #000000 !important;
+  }
+}
