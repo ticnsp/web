@@ -7,7 +7,7 @@ theme = "hugo-elate-theme"
 
 [params]
   
-  custom_css = ["css/custom1.css", "css/custom2.css", "css/override.css"]
+  custom_css = ["css/override.css"]
 
   # Meta
   author = "Ricardo Roman"
@@ -19,7 +19,7 @@ theme = "hugo-elate-theme"
 
   # Facebook / Twitter
   [params.sidebar]
-    avatar = "test.jpg"
+    avatar = "bg1.jpg"
 
   # Navigation
   [params.navigation]
