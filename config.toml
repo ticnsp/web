@@ -1,5 +1,6 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "https://www.ticnsp.org/"
+BaseURL = "https://www.ticnsp.org/"
 title = "tic.nsp"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
@@ -15,6 +16,10 @@ theme = "hugo-elate-theme"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
+
+  # Facebook / Twitter
+  [params.sidebar]
+    avatar = "test.jpg"
 
   # Navigation
   [params.navigation]
