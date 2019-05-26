@@ -196,7 +196,7 @@ theme = "hugo-elate-theme"
       social = [
         ["icon-facebook", "https://facebook.com/tic.nsp"],
         ["icon-twitter", "https://twitter.com/ticnsp"],
-        ["icon-instagram", "https://www.instagram.com/ticn.nsp"]
+        ["icon-instagram", "https://www.instagram.com/tic.nsp"]
       ]
 
     [[params.about.item]]
@@ -208,7 +208,7 @@ theme = "hugo-elate-theme"
       social = [
         ["icon-facebook", "https://facebook.com/tic.nsp"],
         ["icon-twitter", "https://twitter.com/ticnsp"],
-        ["icon-instagram", "https://www.instagram.com/ticn.nsp"]
+        ["icon-instagram", "https://www.instagram.com/tic.nsp"]
       ]
 
   # Counters section
@@ -274,9 +274,9 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '2019 &copy; Talleres Infantiles Católicos. Derechos reservados. <br>Desarrollado con <i class="icon-heart2"></i> por <a href="http://freehtml5.co/" target="_blank">TICNSP.org</a>'
+    copyright = '2019 &copy; Talleres Infantiles Católicos. El plagio es pecado. <br>Desarrollado con <i class="icon-heart2"></i> por <a href="http://www.ticnsp.org/" target="_blank">TICNSP.org</a>'
     links = [
         ["icon-facebook", "https://facebook.com/tic.nsp"],
         ["icon-twitter", "https://twitter.com/ticnsp"],
-        ["icon-instagram", "https://www.instagram.com/ticn.nsp"]
+        ["icon-instagram", "https://www.instagram.com/tic.nsp"]
       ]
