@@ -160,7 +160,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Servicios"
-    description = "TIC comparte el Evangelio de distintas maneras. En un curso de TIC tienes la oportunidad de conocer a Dios de distintas maneras."
+    description = "TIC se dedica a anunciar el Evangelio a los niños; por eso, en un curso tienes muchas oportunidades de conocer a Dios en formas únicas."
 
     [[params.services.item]]
       title = "Catequesis"
