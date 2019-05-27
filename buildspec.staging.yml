@@ -13,6 +13,7 @@ phases:
       - wget "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.deb"
       - sudo dpkg -i hugo_${hugo_version}_Linux-64bit.deb
     finally:
+      - echo testing
       - hugo version
   build:
     commands:
