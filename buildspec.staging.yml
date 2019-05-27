@@ -16,6 +16,8 @@ phases:
       - hugo version
   build:
     commands:
+      - pwd
+      - ls
       - hugo
       - cd public && aws s3 sync . s3://${s3_output} --delete --acl public-read
     finally:
