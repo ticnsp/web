@@ -19,5 +19,6 @@ phases:
       - mkdir content # hugo needs this
       - hugo
       - cd public && aws s3 sync . s3://${s3_output} --delete --acl public-read
+      - aws cloudfront create-invalidation --distribution-id E3PFRPSNHNYW3 --paths /
     finally:
       - echo "Script finished running"
