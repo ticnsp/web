@@ -7,14 +7,18 @@ env:
 
 phases:
   install:
+    runtime-versions:
+      golang: 1.12
     commands:
       - wget "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.deb"
-      - sudo dpkg -i hugo_${hugo_version}_Linux-64bit.deb
+      - dpkg -i hugo_${hugo_version}_Linux-64bit.deb
     finally:
       - hugo version
   build:
     commands:
+      - mkdir content # hugo needs this
       - hugo
       - cd public && aws s3 sync . s3://${s3_output} --delete --acl public-read
+      - aws cloudfront create-invalidation --distribution-id E3QOGKHYJTGGFE --paths /
     finally:
       - echo "Script finished running"
