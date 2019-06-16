@@ -1,6 +1,6 @@
 # Page settings
-baseurl = "http://localhost:1313/"
-BaseURL = "http://localhost:1313/"
+baseurl = "https://www.ticnsp.org/"
+BaseURL = "https://www.ticnsp.org/"
 title = "tic.nsp"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
@@ -8,7 +8,7 @@ theme = "hugo-elate-theme"
 [params]
 
   [params.gtag]
-    enable = false
+    enable = true
   
   custom_css = ["css/override.css"]
 

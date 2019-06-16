@@ -4,6 +4,7 @@ env:
   variables:
     s3_output: "staging.www.ticnsp.org"
     hugo_version: "0.55.6"
+    hugo_config: "staging.config.toml"
 
 phases:
   install:
@@ -17,7 +18,7 @@ phases:
   build:
     commands:
       - mkdir content # hugo needs this
-      - hugo
+      - hugo --config=${hugo_config}
       - cd public && aws s3 sync . s3://${s3_output} --delete --acl public-read
       - aws cloudfront create-invalidation --distribution-id E3PFRPSNHNYW3 --paths /
     finally:
