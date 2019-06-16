@@ -7,9 +7,6 @@ theme = "hugo-elate-theme"
 
 [params]
 
-  [params.gtag]
-    enable = false
-  
   custom_css = ["css/override.css"]
 
   # Meta
@@ -19,6 +16,10 @@ theme = "hugo-elate-theme"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
+
+  # Google Analytics
+  [params.gtag]
+    enable = false
 
   # Facebook / Twitter
   [params.sidebar]
