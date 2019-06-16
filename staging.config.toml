@@ -1,6 +1,6 @@
 # Page settings
-baseurl = "https://staging.ticnsp.org/"
-BaseURL = "https://staging.ticnsp.org/"
+baseurl = "https://staging.www.ticnsp.org/"
+BaseURL = "https://staging.www.ticnsp.org/"
 title = "tic.nsp"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
