@@ -1,12 +1,12 @@
 # Page settings
-baseurl = "http://localhost:1313/"
-BaseURL = "http://localhost:1313/"
+baseurl = "https://staging.www.ticnsp.org/"
+BaseURL = "https://staging.www.ticnsp.org/"
 title = "tic.nsp"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
 [params]
-  
+
   custom_css = ["css/override.css"]
 
   # Meta

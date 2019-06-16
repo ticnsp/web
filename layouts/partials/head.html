@@ -1,3 +1,7 @@
+	{{ if .Site.Params.gtag.enable }}
+  		{{ partial "gtag.html" .}}
+  	{{ end }}
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> {{ .Title }}</title>
