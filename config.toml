@@ -35,6 +35,11 @@ theme = "hugo-elate-theme"
     about = "Nosotros"
     contact = "Contacto"
 
+    [[menu.postpend]]
+      url = "https://forms.gle/DCuSfEXvoQjCTW7W7"
+      name = "Pre-inscripciones"
+      weight = 10
+
     # You can add custom links before or after the default links
     # Assign a weight to define the order
     
