@@ -59,6 +59,7 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = "Enséñale al niño el camino que ha de seguir"
     subtitle = 'Talleres Infantiles Católicos'
+    mainLink = '[Pre-Inscripciones Ago - Dic 2019](https://forms.gle/DCuSfEXvoQjCTW7W7)'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
