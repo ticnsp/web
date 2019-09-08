@@ -35,10 +35,10 @@ theme = "hugo-elate-theme"
     about = "Nosotros"
     contact = "Contacto"
 
-    [[menu.postpend]]
-      url = "https://forms.gle/DCuSfEXvoQjCTW7W7"
-      name = "Pre-inscripciones"
-      weight = 10
+    # [[menu.postpend]]
+    #   url = "https://forms.gle/DCuSfEXvoQjCTW7W7"
+    #   name = "Pre-inscripciones"
+    #   weight = 10
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -59,7 +59,7 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = "Enséñale al niño el camino que ha de seguir"
     subtitle = 'Talleres Infantiles Católicos'
-    mainLink = '[Pre-Inscripciones Ago - Dic 2019](https://forms.gle/DCuSfEXvoQjCTW7W7)'
+    mainLink = 'Inscripciones todos los sábados para el curso **2019.2**'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
