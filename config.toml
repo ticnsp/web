@@ -35,10 +35,10 @@ theme = "hugo-elate-theme"
     about = "Nosotros"
     contact = "Contacto"
 
-    # [[menu.postpend]]
-    #   url = "https://forms.gle/DCuSfEXvoQjCTW7W7"
-    #   name = "Pre-inscripciones"
-    #   weight = 10
+    [[menu.postpend]]
+      url = "https://forms.gle/mGPm7YJb7aoLCCvN7"
+      name = "Pre-inscripciones"
+      weight = 10
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -59,7 +59,7 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = "Enséñale al niño el camino que ha de seguir"
     subtitle = 'Talleres Infantiles Católicos'
-    mainLink = 'Inscripciones todos los sábados para el curso **2019.2**'
+    mainLink = '[Pre-inscripciones Febrero - Junio 2020](https://forms.gle/mGPm7YJb7aoLCCvN7)'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -231,7 +231,7 @@ theme = "hugo-elate-theme"
       description = "Semestres de experiencia"
       icon = "icon-briefcase"
       from = 0
-      to = 18
+      to = 19
       interval = 50
       speed = 2000
 
@@ -239,7 +239,7 @@ theme = "hugo-elate-theme"
       description = "Coordinadores"
       icon = "icon-people"
       from = 0
-      to = 34
+      to = 33
       interval = 50
       speed = 2000
 
@@ -247,7 +247,7 @@ theme = "hugo-elate-theme"
       description = "Niños inscritos"
       icon = "icon-check"
       from = 0
-      to = 45
+      to = 0
       interval = 50
       speed = 2000
 
@@ -284,9 +284,9 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '2019 &copy; Talleres Infantiles Católicos. El plagio es pecado. <br>Desarrollado con <i class="icon-heart2"></i> por <a href="http://www.ticnsp.org/" target="_blank">TICNSP.org</a>'
+    copyright = '2020 &copy; Talleres Infantiles Católicos. El plagio es pecado. <br>Desarrollado con <i class="icon-heart2"></i> por <a href="http://www.ticnsp.org/" target="_blank">TICNSP.org</a>'
     links = [
-        ["icon-facebook", "https://facebook.com/tic.nsp"],
+        ["icon-facebook", "https://facebook.com/ticnsp1"],
         ["icon-twitter", "https://twitter.com/ticnsp"],
         ["icon-instagram", "https://www.instagram.com/tic.nsp"]
       ]
