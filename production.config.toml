@@ -1,7 +1,7 @@
 # Page settings
 baseurl = "https://www.ticnsp.org/"
 BaseURL = "https://www.ticnsp.org/"
-title = "tic.nsp"
+title = "TIC • Talleres Infantiles Católicos"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -27,7 +27,7 @@ theme = "hugo-elate-theme"
 
   # Navigation
   [params.navigation]
-    brand = "tic.nsp"
+    brand = "ticnsp"
     home = "Inicio"
     # work = "Work"
     # testimonials = "Testimonials"
@@ -204,9 +204,9 @@ theme = "hugo-elate-theme"
       img = "cg1.jpg"
       alt = "Coordinador General"
       social = [
-        ["icon-facebook", "https://facebook.com/tic.nsp"],
+        ["icon-facebook", "https://facebook.com/ticnsp1"],
         ["icon-twitter", "https://twitter.com/ticnsp"],
-        ["icon-instagram", "https://www.instagram.com/tic.nsp"]
+        ["icon-instagram", "https://www.instagram.com/ticnsp"]
       ]
 
     [[params.about.item]]
@@ -216,9 +216,9 @@ theme = "hugo-elate-theme"
       img = "cg2.jpg"
       alt = "Coordinador General"
       social = [
-        ["icon-facebook", "https://facebook.com/tic.nsp"],
+        ["icon-facebook", "https://facebook.com/ticnsp1"],
         ["icon-twitter", "https://twitter.com/ticnsp"],
-        ["icon-instagram", "https://www.instagram.com/tic.nsp"]
+        ["icon-instagram", "https://www.instagram.com/ticnsp"]
       ]
 
   # Counters section
@@ -231,7 +231,7 @@ theme = "hugo-elate-theme"
       description = "Semestres de experiencia"
       icon = "icon-briefcase"
       from = 0
-      to = 19
+      to = 20
       interval = 50
       speed = 2000
 
@@ -247,7 +247,7 @@ theme = "hugo-elate-theme"
       description = "Niños inscritos"
       icon = "icon-check"
       from = 0
-      to = 0
+      to = 63
       interval = 50
       speed = 2000
 
@@ -255,7 +255,7 @@ theme = "hugo-elate-theme"
       description = "Talleres impartidos"
       icon = "icon-flag"
       from = 0
-      to = 6
+      to = 5
       interval = 50
       speed = 2000
 
@@ -288,5 +288,5 @@ theme = "hugo-elate-theme"
     links = [
         ["icon-facebook", "https://facebook.com/ticnsp1"],
         ["icon-twitter", "https://twitter.com/ticnsp"],
-        ["icon-instagram", "https://www.instagram.com/tic.nsp"]
+        ["icon-instagram", "https://www.instagram.com/ticnsp"]
       ]
