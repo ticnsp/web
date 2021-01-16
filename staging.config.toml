@@ -35,10 +35,10 @@ theme = "hugo-elate-theme"
     about = "Nosotros"
     contact = "Contacto"
 
-    [[menu.postpend]]
-      url = "https://forms.gle/CnCaBkSJ7FBPsAGUA"
-      name = "Inscripciones"
-      weight = 10
+    # [[menu.postpend]]
+    #   url = "https://forms.gle/CnCaBkSJ7FBPsAGUA"
+    #   name = "Inscripciones"
+    #   weight = 10
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
