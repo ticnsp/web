@@ -35,10 +35,10 @@ theme = "hugo-elate-theme"
     about = "Nosotros"
     contact = "Contacto"
 
-    # [[menu.postpend]]
-    #   url = "https://forms.gle/CnCaBkSJ7FBPsAGUA"
-    #   name = "Inscripciones"
-    #   weight = 10
+    [[menu.postpend]]
+      url = "https://forms.gle/MwKgRRpm7fC4EMmh8"
+      name = "Inscripciones"
+      weight = 10
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -59,7 +59,7 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = "Enséñale al niño el camino que ha de seguir"
     subtitle = 'Talleres Infantiles Católicos [online]'
-    mainLink = 'Septiembre - Diciembre 2020'
+    mainLink = 'Febrero - Mayo 2021'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
